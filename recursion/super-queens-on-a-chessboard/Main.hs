@@ -18,7 +18,14 @@ can (Board s) (i,j) n = not$ s`testBit`(i*n+j)
 
 place :: Board -> (Int, Int) -> Int -> Board
 place (Board s) (i,j) n =
-  Board$ foldl setBit s [x*n+y | x <- [i..n-1], y <- [0..n-1], not$ s`testBit`(x*n+y), (x,y) `conflict` (i,j)]
+  --Board$ foldl setBit s [x*n+y | x <- [i..n-1], y <- [0..n-1], not$ s`testBit`(x*n+y), (x,y) `conflict` (i,j)]
+  Board$ f s (i*n+j)
+  where
+    f p l | l == n*n = p
+          | (not$ s`testBit`l) && (x,y) `conflict` (i,j) = f (p `setBit` l) (l+1)
+          | otherwise = f p (l+1)
+      where (x, y) = (l`div`n, l`mod`n)
+
 
 conflict :: (Int, Int) -> (Int, Int) -> Bool
 conflict (x,y) (i,j)
