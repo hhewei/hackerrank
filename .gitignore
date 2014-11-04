@@ -1,5 +1,6 @@
 *_flymake.hs
 *.hi
 *.o
+*.prof
 *.txt
 Main
