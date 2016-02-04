@@ -16,3 +16,5 @@ Ad-Hoc | Captain Prime | 30 | 168/182 | https://www.hackerrank.com/challenges/ca
 Ad-Hoc | Kundu And Bubble Wrap | 50 | 154/167 | https://www.hackerrank.com/challenges/kundu-and-bubble-wrap
 Ad-Hoc | Game of Kyles | 80 | 44/80 | https://www.hackerrank.com/challenges/game-of-kyles
 Ad-Hoc | Puzzle and PC | 80 | 36/39 | https://www.hackerrank.com/challenges/puzzle-and-pc
+Ad-Hoc | Subset Sum | 20 | 137/220 | https://www.hackerrank.com/challenges/subset-sum
+Recursion | Functions and Fractals: Sierpinski triangles | 30 | 512/537 | https://www.hackerrank.com/challenges/functions-and-fractals-sierpinski-triangles
