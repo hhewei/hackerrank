@@ -3,7 +3,6 @@ hackerrank
 
 Section | Problem | Score | Solved/Attempt | Link
 ------- | ------- | ----- | -------------- | ----
-DP | Reverse Factorization | 50 | 85/99 | https://www.hackerrank.com/challenges/reverse-factorization
 DP | Bangalore Bank | 50 | 42/48 | https://www.hackerrank.com/challenges/bangalore-bank
 Structure | Stock Prediction | 80 | 28/57 | https://www.hackerrank.com/challenges/stocks-prediction
 Structure | Mirko at the Construction Site | 100 | 30/60 | https://www.hackerrank.com/challenges/mirko-at-construction-site
