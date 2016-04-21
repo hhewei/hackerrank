@@ -10,8 +10,6 @@ Persistent | Minimum Multiple | 50 | 40/93 | https://www.hackerrank.com/challeng
 Persistent | Messy Medians | 80 | 54/81 | https://www.hackerrank.com/challenges/messy-medians
 Persistent | Boleyn Salary | 100 | 28/45 | https://www.hackerrank.com/challenges/boleyn-salary
 Ad-Hoc | Mangoes | 50 | 83/108 | https://www.hackerrank.com/challenges/mango
-Ad-Hoc | Captain Prime | 30 | 168/182 | https://www.hackerrank.com/challenges/captain-prime
-Ad-Hoc | Kundu And Bubble Wrap | 50 | 154/167 | https://www.hackerrank.com/challenges/kundu-and-bubble-wrap
 Ad-Hoc | Game of Kyles | 80 | 44/80 | https://www.hackerrank.com/challenges/game-of-kyles
 Ad-Hoc | Puzzle and PC | 80 | 36/39 | https://www.hackerrank.com/challenges/puzzle-and-pc
 Ad-Hoc | Subset Sum | 20 | 137/220 | https://www.hackerrank.com/challenges/subset-sum
