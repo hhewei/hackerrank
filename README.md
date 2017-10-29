@@ -7,7 +7,6 @@ DP | Bangalore Bank | 50 | 42/48 | https://www.hackerrank.com/challenges/bangalo
 DP | Klotski | 150 | 6/10 | https://www.hackerrank.com/challenges/klotski
 Structure | Stock Prediction | 80 | 28/57 | https://www.hackerrank.com/challenges/stocks-prediction
 Structure | Mirko at the Construction Site | 100 | 30/60 | https://www.hackerrank.com/challenges/mirko-at-construction-site
-Structure | Tree manager | 60 | 1/2 | https://www.hackerrank.com/challenges/tree-manager
 Structure | Fighting Armies | 60 | 0/2 | https://www.hackerrank.com/challenges/fighting-armies
 Persistent | Minimum Multiple | 50 | 40/93 | https://www.hackerrank.com/challenges/minimum-multiple
 Persistent | Messy Medians | 80 | 54/81 | https://www.hackerrank.com/challenges/messy-medians
