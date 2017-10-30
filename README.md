@@ -15,4 +15,3 @@ Ad-Hoc | Game of Kyles | 80 | 44/80 | https://www.hackerrank.com/challenges/game
 Ad-Hoc | Elementary Watson | 200 | 20/22 | https://www.hackerrank.com/challenges/elementary-watson
 Recursion | Functions and Fractals: Sierpinski triangles | 30 | 512/537 | https://www.hackerrank.com/challenges/functions-and-fractals-sierpinski-triangles
 Recursion | The Tree of Life | 200 | 107/124 | https://www.hackerrank.com/challenges/the-tree-of-life
-Recursion | Concave Polygon | 40 | 2/3 | https://www.hackerrank.com/challenges/lambda-march-concave-polygon
