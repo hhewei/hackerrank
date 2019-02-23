@@ -3,7 +3,6 @@ hackerrank
 
 Section | Problem | Score | Solved/Attempt | Link
 ------- | ------- | ----- | -------------- | ----
-Introduction | Area Under Curves and Volume of Revolving a Curve | 30 | | https://www.hackerrank.com/challenges/area-under-curves-and-volume-of-revolving-a-curv
 DP | Bangalore Bank | 50 | 42/48 | https://www.hackerrank.com/challenges/bangalore-bank
 DP | Klotski | 150 | 6/10 | https://www.hackerrank.com/challenges/klotski
 Structure | Stock Prediction | 80 | 28/57 | https://www.hackerrank.com/challenges/stocks-prediction
