@@ -2,4 +2,5 @@
 *.o
 *.prof
 *.txt
+.projectile
 Main
