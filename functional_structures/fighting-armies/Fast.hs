@@ -1,5 +1,8 @@
+{-# LANGUAGE Strict #-}
+
 import Prelude hiding (lookup, getLine, null)
-import Data.ByteString.Char8 (getLine, split, readInt, null)
+import Data.Maybe (fromJust)
+import Data.ByteString.Char8 as B (getLine, readInt, break, ByteString, drop, words)
 import Data.IntMap.Strict (IntMap, empty, lookup, lookupMax, delete, adjust, unionWith, alter, update, singleton)
 import Control.Monad.State (StateT, runStateT, get, put)
 import Control.Monad (replicateM_)
@@ -10,12 +13,13 @@ type St = IntMap Army
 
 type Action a = StateT St IO a
 
+readJustInt :: ByteString -> Int
+readJustInt bs = let Just (i, _) = readInt bs in i
+
 readInts :: IO [Int]
 readInts = do
-  ln <- getLine
-  let ws = filter (not.null) $ split ' ' ln
-      read bs = let Just (i, _) = readInt bs in i
-  return$ map read ws
+  ws <- B.words `fmap` getLine
+  return$ map readJustInt ws
 
 findStrongest :: Int -> Action ()
 findStrongest i = do
@@ -56,12 +60,11 @@ merge i j = do
 process :: Action ()
 process = do
   (e:p1:ps) <- liftIO readInts
-  let p2 = head ps
   case e of
     1 -> findStrongest p1
     2 -> strongestDied p1
-    3 -> recruit p1 p2
-    4 -> merge p1 p2
+    3 -> recruit p1 (head ps)
+    4 -> merge p1 (head ps)
 
 main :: IO ()
 main = do
